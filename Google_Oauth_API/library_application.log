@@ -1677,3 +1677,648 @@ Using generated security password: 3472f5d8-edbc-4fad-861a-66570cd80e7e
 2020-03-06 18:15:14.799  INFO 4940 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-03-06 18:15:14.801  INFO 4940 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-16 - Shutdown initiated...
 2020-03-06 18:15:14.807  INFO 4940 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-16 - Shutdown completed.
+2020-03-09 11:27:06.217  INFO 5196 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 5196 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-09 11:27:06.243  INFO 5196 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-09 11:27:06.430  INFO 5196 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in /home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-09 11:27:06.430  INFO 5196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-09 11:27:06.431  INFO 5196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-09 11:27:08.586  INFO 5196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-09 11:27:08.639  INFO 5196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+2020-03-09 11:27:09.864  INFO 5196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 11:27:10.850  INFO 5196 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-09 11:27:10.896  INFO 5196 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-09 11:27:10.898  INFO 5196 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-09 11:27:11.517  INFO 5196 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-09 11:27:11.536  INFO 5196 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-09 11:27:11.536  INFO 5196 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 5105 ms
+2020-03-09 11:27:11.691  INFO 5196 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-03-09 11:27:11.699  WARN 5196 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-09 11:27:12.512  INFO 5196 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-03-09 11:27:12.524  INFO 5196 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-09 11:27:12.827  INFO 5196 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-09 11:27:12.972  INFO 5196 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.4.9.Final}
+2020-03-09 11:27:13.254  INFO 5196 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-09 11:27:13.524  INFO 5196 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-09 11:27:14.164  INFO 5196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-09 11:27:14.183  INFO 5196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-09 11:27:14.356  WARN 5196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-09 11:27:14.598  INFO 5196 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7dae4f28-a425-4433-9e1a-9b6c03802572
+
+2020-03-09 11:27:14.965  INFO 5196 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61d3869c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f222aad, org.springframework.security.web.header.HeaderWriterFilter@2a7704ab, org.springframework.security.web.authentication.logout.LogoutFilter@28f0f335, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@74d76bca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@615a4efb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a620ef1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@536137b8, org.springframework.security.web.session.SessionManagementFilter@4264b121, org.springframework.security.web.access.ExceptionTranslationFilter@156641c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53dcc5ee]
+2020-03-09 11:27:15.387  INFO 5196 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-09 11:27:15.626  INFO 5196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-09 11:27:15.707  INFO 5196 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-09 11:27:15.711  INFO 5196 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 10.782 seconds (JVM running for 12.362)
+2020-03-09 11:27:34.481  INFO 5196 --- [http-nio-2022-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-09 11:27:34.481  INFO 5196 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-03-09 11:27:34.492  INFO 5196 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2020-03-09 11:28:31.189  INFO 5196 --- [http-nio-2022-exec-6] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-09 11:28:31.252  INFO 5196 --- [http-nio-2022-exec-6] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300], Book [bookId=3, bookName=Friends, bookAuthor=sagar, bookPrice=500]]
+2020-03-09 11:30:02.703  INFO 5196 --- [http-nio-2022-exec-8] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-09 11:30:02.712  INFO 5196 --- [http-nio-2022-exec-8] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300], Book [bookId=3, bookName=Friends, bookAuthor=sagar, bookPrice=500]]
+2020-03-09 11:30:06.630  INFO 5196 --- [http-nio-2022-exec-9] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-09 11:30:06.635  INFO 5196 --- [http-nio-2022-exec-9] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300], Book [bookId=3, bookName=Friends, bookAuthor=sagar, bookPrice=500]]
+2020-03-09 11:30:38.820  INFO 5196 --- [http-nio-2022-exec-4] c.o.c.RestApi                            : api call to /test from ADMIN   
+2020-03-09 11:30:46.669  INFO 5196 --- [http-nio-2022-exec-5] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-09 11:30:46.671  INFO 5196 --- [http-nio-2022-exec-5] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300], Book [bookId=3, bookName=Friends, bookAuthor=sagar, bookPrice=500]]
+2020-03-09 11:31:04.893  WARN 5196 --- [http-nio-2022-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-09 11:32:17.875  INFO 5196 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-09 11:32:17.876  INFO 5196 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-09 11:32:17.881  INFO 5196 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-03-09 11:32:17.895  INFO 5196 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-03-16 12:32:46.712  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:32:46.742  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:32:46.859  INFO 7231 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in /home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/sagarp/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-16 12:32:46.860  INFO 7231 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-16 12:32:46.861  INFO 7231 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-16 12:32:50.209  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:32:50.258  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+2020-03-16 12:32:51.524  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:32:53.001  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:32:53.080  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:32:53.081  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:32:53.493  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:32:53.499  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:32:53.500  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 6639 ms
+2020-03-16 12:32:53.731  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-03-16 12:32:53.748  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:32:54.771  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-03-16 12:32:54.798  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:32:55.523  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:32:55.714  INFO 7231 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.4.9.Final}
+2020-03-16 12:32:56.099  INFO 7231 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-16 12:32:56.459  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:32:56.915  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:32:56.935  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:32:57.088  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:32:57.247  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ee36c593-7bf5-45d3-941b-e5256c8b0c0d
+
+2020-03-16 12:32:57.514  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3028df45, org.springframework.security.web.context.SecurityContextPersistenceFilter@527d2d7c, org.springframework.security.web.header.HeaderWriterFilter@31ff8e62, org.springframework.security.web.authentication.logout.LogoutFilter@3acb3af3, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@58547f7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78b188f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f55de24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75a78265, org.springframework.security.web.session.SessionManagementFilter@7e5c7749, org.springframework.security.web.access.ExceptionTranslationFilter@3eadee6b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e63deca]
+2020-03-16 12:32:57.746  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:32:58.153  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:32:58.308  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:32:58.313  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 13.92 seconds (JVM running for 19.417)
+2020-03-16 12:45:16.570  INFO 7231 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:45:16.572  INFO 7231 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:45:16.576  INFO 7231 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-03-16 12:45:16.612  INFO 7231 --- [Thread-6] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-03-16 12:45:17.194  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:45:17.196  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:45:17.752  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:45:17.762  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-03-16 12:45:18.039  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:45:18.238  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 12:45:18.303  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:45:18.320  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:45:18.321  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:45:18.510  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:45:18.515  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:45:18.517  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1315 ms
+2020-03-16 12:45:18.625  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-03-16 12:45:18.640  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:45:18.775  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-03-16 12:45:18.777  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:45:18.987  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:45:19.021  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:45:19.095  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:45:19.095  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:45:19.208  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:45:19.309  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c80d4a32-bd71-459c-a1e5-df1c8b083664
+
+2020-03-16 12:45:19.382  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@152ce67f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7252103a, org.springframework.security.web.header.HeaderWriterFilter@27108a90, org.springframework.security.web.authentication.logout.LogoutFilter@17d3ad44, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@be80c54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47973f9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64f069f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@414ceef3, org.springframework.security.web.session.SessionManagementFilter@f22e2f, org.springframework.security.web.access.ExceptionTranslationFilter@78f9a12c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a3413e]
+2020-03-16 12:45:19.557  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:45:19.726  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:45:19.853  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:45:19.858  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 2.808 seconds (JVM running for 760.962)
+2020-03-16 12:45:19.864  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 12:46:07.225  INFO 7231 --- [Thread-9] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:46:07.227  INFO 7231 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:46:07.230  INFO 7231 --- [Thread-9] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-03-16 12:46:07.250  INFO 7231 --- [Thread-9] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-03-16 12:46:07.541  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:46:07.542  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:46:07.865  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:46:07.867  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-03-16 12:46:07.983  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:46:08.043  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 12:46:08.093  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:46:08.095  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:46:08.095  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:46:08.227  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:46:08.233  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:46:08.234  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 688 ms
+2020-03-16 12:46:08.263  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2020-03-16 12:46:08.264  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:46:08.309  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2020-03-16 12:46:08.310  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:46:08.356  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:46:08.377  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:46:08.410  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:46:08.411  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:46:08.527  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:46:08.630  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 568ed23e-8c0d-4ea0-ae9e-596ccc788827
+
+2020-03-16 12:46:08.733  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55780f7f, org.springframework.security.web.context.SecurityContextPersistenceFilter@486082bc, org.springframework.security.web.header.HeaderWriterFilter@155c01f5, org.springframework.security.web.authentication.logout.LogoutFilter@4da88978, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@20940c7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e8ffb28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ba91aa5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bea8f6f, org.springframework.security.web.session.SessionManagementFilter@6bc82b47, org.springframework.security.web.access.ExceptionTranslationFilter@1a719101, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4eb9d3f8]
+2020-03-16 12:46:08.877  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:46:09.051  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:46:09.100  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:46:09.101  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.664 seconds (JVM running for 810.204)
+2020-03-16 12:46:09.104  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 12:46:20.487  INFO 7231 --- [Thread-14] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:46:20.488  INFO 7231 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:46:20.490  INFO 7231 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2020-03-16 12:46:20.507  INFO 7231 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2020-03-16 12:46:20.731  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:46:20.732  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:46:21.105  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:46:21.109  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2020-03-16 12:46:21.257  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:46:21.327  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 12:46:21.364  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:46:21.367  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:46:21.369  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:46:21.449  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:46:21.450  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:46:21.450  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 714 ms
+2020-03-16 12:46:21.489  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2020-03-16 12:46:21.489  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:46:21.553  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2020-03-16 12:46:21.554  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:46:21.631  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:46:21.637  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:46:21.669  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:46:21.672  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:46:21.753  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:46:21.809  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 09248ad0-affa-4b3c-808c-359d3bc4c035
+
+2020-03-16 12:46:21.872  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1739b8e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dbea6d3, org.springframework.security.web.header.HeaderWriterFilter@2dc65ecb, org.springframework.security.web.authentication.logout.LogoutFilter@3898b21c, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@6c7ae313, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@89bad67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17b48ab9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6036cd30, org.springframework.security.web.session.SessionManagementFilter@2012e32c, org.springframework.security.web.access.ExceptionTranslationFilter@52b6eec5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@323d6a79]
+2020-03-16 12:46:21.956  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:46:22.062  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:46:22.090  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:46:22.090  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.423 seconds (JVM running for 823.194)
+2020-03-16 12:46:22.092  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 12:57:01.311  INFO 7231 --- [Thread-19] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:57:01.315  INFO 7231 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:57:01.323  INFO 7231 --- [Thread-19] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2020-03-16 12:57:01.354  INFO 7231 --- [Thread-19] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2020-03-16 12:57:01.584  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:57:01.585  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:57:01.870  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:57:01.875  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-03-16 12:57:02.003  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:57:02.110  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 12:57:02.156  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:57:02.157  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:57:02.157  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:57:02.190  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:57:02.191  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:57:02.191  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 603 ms
+2020-03-16 12:57:02.215  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2020-03-16 12:57:02.216  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:57:02.257  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2020-03-16 12:57:02.257  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:57:02.305  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:57:02.310  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:57:02.333  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:57:02.337  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:57:02.397  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:57:02.437  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: db289af1-4ccd-4087-ae0e-daf0f2a0fb92
+
+2020-03-16 12:57:02.486  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12ba571f, org.springframework.security.web.context.SecurityContextPersistenceFilter@63bb0dd9, org.springframework.security.web.header.HeaderWriterFilter@6490ee57, org.springframework.security.web.authentication.logout.LogoutFilter@21a2e355, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@12bf2a05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@242eb0e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@472f1061, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c85c02d, org.springframework.security.web.session.SessionManagementFilter@1f0856c2, org.springframework.security.web.access.ExceptionTranslationFilter@1a4bb338, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67f10513]
+2020-03-16 12:57:02.601  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:57:02.726  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:57:02.851  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:57:02.852  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.323 seconds (JVM running for 1463.955)
+2020-03-16 12:57:02.854  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 12:58:08.210  INFO 7231 --- [Thread-24] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:58:08.212  INFO 7231 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:58:08.216  INFO 7231 --- [Thread-24] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2020-03-16 12:58:08.237  INFO 7231 --- [Thread-24] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2020-03-16 12:58:08.456  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 12:58:08.457  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 12:58:08.788  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 12:58:08.792  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-03-16 12:58:09.007  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 12:58:09.096  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 12:58:09.134  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 12:58:09.136  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 12:58:09.136  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 12:58:09.193  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 12:58:09.194  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 12:58:09.194  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 732 ms
+2020-03-16 12:58:09.223  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Starting...
+2020-03-16 12:58:09.223  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 12:58:09.279  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Start completed.
+2020-03-16 12:58:09.279  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 12:58:09.328  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 12:58:09.332  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 12:58:09.361  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 12:58:09.364  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 12:58:09.429  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 12:58:09.483  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 83aae9be-24cb-4265-93a7-1842eb8871fb
+
+2020-03-16 12:58:09.544  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@253a4702, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fc5a7d1, org.springframework.security.web.header.HeaderWriterFilter@352c1149, org.springframework.security.web.authentication.logout.LogoutFilter@426f16d9, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@306718da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1413067b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41e0fbe9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43834986, org.springframework.security.web.session.SessionManagementFilter@706222ae, org.springframework.security.web.access.ExceptionTranslationFilter@4f628de7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cb07a9a]
+2020-03-16 12:58:09.690  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 12:58:09.777  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 12:58:09.796  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 12:58:09.797  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.391 seconds (JVM running for 1530.9)
+2020-03-16 12:58:09.799  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 14:23:44.159  INFO 7231 --- [http-nio-2022-exec-4] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-16 14:23:44.372  INFO 7231 --- [http-nio-2022-exec-4] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-03-16 14:23:44.745  INFO 7231 --- [http-nio-2022-exec-4] o.s.w.s.DispatcherServlet                : Completed initialization in 373 ms
+2020-03-16 14:23:47.455  WARN 7231 --- [http-nio-2022-exec-4] o.a.c.u.SessionIdGeneratorBase           : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [245] milliseconds.
+2020-03-16 14:25:23.394  WARN 7231 --- [http-nio-2022-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-16 14:25:49.186  INFO 7231 --- [http-nio-2022-exec-4] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-16 14:25:50.310  INFO 7231 --- [http-nio-2022-exec-4] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300], Book [bookId=3, bookName=Friends, bookAuthor=sagar, bookPrice=500]]
+2020-03-16 14:31:48.566  WARN 7231 --- [http-nio-2022-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-16 14:35:36.952  INFO 7231 --- [Thread-29] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:35:36.970  INFO 7231 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:35:36.972  INFO 7231 --- [Thread-29] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown initiated...
+2020-03-16 14:35:36.990  INFO 7231 --- [Thread-29] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown completed.
+2020-03-16 14:35:40.291  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 14:35:40.292  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 14:35:42.683  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 14:35:42.686  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-03-16 14:35:42.929  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 14:35:42.983  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 14:35:43.765  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 14:35:43.766  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 14:35:43.766  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 14:35:43.959  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 14:35:43.961  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 14:35:43.961  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3663 ms
+2020-03-16 14:35:43.986  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Starting...
+2020-03-16 14:35:43.986  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 14:35:44.383  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Start completed.
+2020-03-16 14:35:44.384  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 14:35:44.526  WARN 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Cannot deserialize session attribute [scopedTarget.oauth2ClientContext] for session [1A55EDD71EEC7B4B048C2BC7FBA7AD59]
+2020-03-16 14:35:44.530 ERROR 7231 --- [restartedMain] o.a.c.s.StandardManager                  : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1705) ~[?:1.8.0_242]
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:803) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:925) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1912) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1806) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2097) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1625) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2342) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2266) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2124) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1625) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:465) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:423) ~[?:1.8.0_242]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1576) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1048) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.oauth.controller.GoogleOauthAPIApplication.main(GoogleOauthAPIApplication.java:12) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+
+2020-03-16 14:35:44.709  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 14:35:44.719  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 14:35:44.774  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 14:35:44.774  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:35:44.835  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 14:35:44.899  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4f7c71df-7bde-4655-9f7d-fb135b6e8b63
+
+2020-03-16 14:35:44.967  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79baff21, org.springframework.security.web.context.SecurityContextPersistenceFilter@48858a1f, org.springframework.security.web.header.HeaderWriterFilter@26662546, org.springframework.security.web.authentication.logout.LogoutFilter@5861bce2, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@13931090, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b46f17b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c1da940, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@607a2fc4, org.springframework.security.web.session.SessionManagementFilter@2971338d, org.springframework.security.web.access.ExceptionTranslationFilter@6594c286, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76fe4bb4]
+2020-03-16 14:35:45.050  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:35:45.113  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 14:35:45.132  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 14:35:45.133  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 5.343 seconds (JVM running for 7386.237)
+2020-03-16 14:35:45.135  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 14:35:54.097  INFO 7231 --- [http-nio-2022-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-16 14:35:54.097  INFO 7231 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-03-16 14:35:54.099  INFO 7231 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2020-03-16 14:41:36.324  INFO 7231 --- [Thread-34] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:41:36.346  INFO 7231 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:41:36.348  INFO 7231 --- [Thread-34] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown initiated...
+2020-03-16 14:41:36.366  INFO 7231 --- [Thread-34] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown completed.
+2020-03-16 14:41:37.500  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 14:41:37.501  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 14:41:39.592  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 14:41:39.593  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-03-16 14:41:39.654  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 14:41:39.682  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 14:41:41.403  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 14:41:41.405  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 14:41:41.406  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 14:41:41.860  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 14:41:41.861  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 14:41:41.861  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4357 ms
+2020-03-16 14:41:41.879  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Starting...
+2020-03-16 14:41:41.880  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 14:41:42.438  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Start completed.
+2020-03-16 14:41:42.439  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 14:41:42.463  WARN 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Cannot deserialize session attribute [scopedTarget.oauth2ClientContext] for session [E10EEB1649A30E3ABBD22C025C599EF0]
+2020-03-16 14:41:42.463 ERROR 7231 --- [restartedMain] o.a.c.s.StandardManager                  : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1705) ~[?:1.8.0_242]
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:803) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:925) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1912) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1806) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2097) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1625) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:465) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:423) ~[?:1.8.0_242]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1576) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1048) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.oauth.controller.GoogleOauthAPIApplication.main(GoogleOauthAPIApplication.java:12) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+
+2020-03-16 14:41:42.483  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 14:41:42.486  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 14:41:42.498  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 14:41:42.499  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:41:42.524  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 14:41:42.555  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e6cd9c94-777b-49f6-a90f-1d256bbbe454
+
+2020-03-16 14:41:42.612  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7832ca63, org.springframework.security.web.context.SecurityContextPersistenceFilter@772bfb2c, org.springframework.security.web.header.HeaderWriterFilter@59abc041, org.springframework.security.web.authentication.logout.LogoutFilter@1968a1da, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@2f81f182, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@474bf0ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@406589ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11796712, org.springframework.security.web.session.SessionManagementFilter@26e7910, org.springframework.security.web.access.ExceptionTranslationFilter@62fa5542, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5060fcb0]
+2020-03-16 14:41:42.678  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:41:42.763  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 14:41:42.775  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 14:41:42.777  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 5.568 seconds (JVM running for 7743.88)
+2020-03-16 14:41:42.779  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 14:44:05.331  INFO 7231 --- [Thread-39] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:44:05.411  INFO 7231 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:44:05.412  INFO 7231 --- [Thread-39] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown initiated...
+2020-03-16 14:44:05.428  INFO 7231 --- [Thread-39] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown completed.
+2020-03-16 14:44:05.640  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 14:44:05.641  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 14:44:06.770  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 14:44:06.772  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-03-16 14:44:06.864  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 14:44:06.900  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 14:44:07.051  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 14:44:07.052  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 14:44:07.052  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 14:44:07.167  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 14:44:07.169  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 14:44:07.169  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1527 ms
+2020-03-16 14:44:07.226  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Starting...
+2020-03-16 14:44:07.227  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 14:44:07.281  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Start completed.
+2020-03-16 14:44:07.281  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 14:44:07.306  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 14:44:07.309  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 14:44:07.321  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 14:44:07.321  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:44:07.350  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 14:44:07.386  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f9ea9947-c74f-4ac7-a494-e6170071211c
+
+2020-03-16 14:44:07.435  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@160b7bf3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b8a448e, org.springframework.security.web.header.HeaderWriterFilter@3bf9f182, org.springframework.security.web.authentication.logout.LogoutFilter@77ee034d, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@2798709a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@789940e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c18db92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@616313a6, org.springframework.security.web.session.SessionManagementFilter@79196740, org.springframework.security.web.access.ExceptionTranslationFilter@3a4b276a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f52bdcf]
+2020-03-16 14:44:07.484  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:44:07.531  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 14:44:07.542  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 14:44:07.543  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.931 seconds (JVM running for 7888.646)
+2020-03-16 14:44:07.544  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 14:44:31.204  INFO 7231 --- [http-nio-2022-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-16 14:44:31.204  INFO 7231 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-03-16 14:44:31.212  INFO 7231 --- [http-nio-2022-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2020-03-16 14:44:56.775  INFO 7231 --- [http-nio-2022-exec-5] c.o.c.RestApi                            : user asking for /availableBook api
+2020-03-16 14:44:56.904  INFO 7231 --- [http-nio-2022-exec-5] c.o.c.RestApi                            : responce = [Book [bookId=1, bookName= The Great Indian Novel, bookAuthor=Shashi Tharoor , bookPrice=200], Book [bookId=2, bookName= The Race of My Life , bookAuthor=Milkha Singh , bookPrice=300]]
+2020-03-16 14:46:36.112  INFO 7231 --- [Thread-44] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:46:36.113  INFO 7231 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:46:36.115  INFO 7231 --- [Thread-44] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown initiated...
+2020-03-16 14:46:36.143  INFO 7231 --- [Thread-44] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown completed.
+2020-03-16 14:46:36.427  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 14:46:36.428  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 14:46:36.613  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 14:46:36.615  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-03-16 14:46:36.693  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 14:46:36.735  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 14:46:36.765  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 14:46:36.767  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 14:46:36.767  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 14:46:36.804  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 14:46:36.805  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 14:46:36.805  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 375 ms
+2020-03-16 14:46:36.824  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Starting...
+2020-03-16 14:46:36.824  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 14:46:36.851  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Start completed.
+2020-03-16 14:46:36.851  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 14:46:36.871  WARN 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Cannot deserialize session attribute [scopedTarget.oauth2ClientContext] for session [1334C9A9A861487DC263089792DD0B30]
+2020-03-16 14:46:36.872 ERROR 7231 --- [restartedMain] o.a.c.s.StandardManager                  : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1705) ~[?:1.8.0_242]
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:803) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:925) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1912) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1806) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2097) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1625) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2342) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2266) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2124) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1625) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:465) ~[?:1.8.0_242]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:423) ~[?:1.8.0_242]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1576) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1048) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_242]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_242]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.oauth.controller.GoogleOauthAPIApplication.main(GoogleOauthAPIApplication.java:12) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+
+2020-03-16 14:46:36.896  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 14:46:36.900  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 14:46:36.917  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 14:46:36.917  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:46:36.950  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 14:46:37.034  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 78c239e2-861b-4335-81a4-7e61b6f373a5
+
+2020-03-16 14:46:37.107  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74274ad7, org.springframework.security.web.context.SecurityContextPersistenceFilter@3695bf94, org.springframework.security.web.header.HeaderWriterFilter@67fe47b8, org.springframework.security.web.authentication.logout.LogoutFilter@1a5d3385, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@58fb589e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b08c869, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ede9f37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8a7e505, org.springframework.security.web.session.SessionManagementFilter@6d125e2, org.springframework.security.web.access.ExceptionTranslationFilter@74bb316e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42941d19]
+2020-03-16 14:46:37.331  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:46:37.465  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 14:46:37.495  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 14:46:37.497  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 1.092 seconds (JVM running for 8038.6)
+2020-03-16 14:46:37.499  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-16 14:46:43.886  INFO 7231 --- [Thread-49] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:46:43.887  INFO 7231 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:46:43.887  INFO 7231 --- [Thread-49] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown initiated...
+2020-03-16 14:46:43.901  INFO 7231 --- [Thread-49] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown completed.
+2020-03-16 14:46:44.097  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Starting GoogleOauthAPIApplication on sagarp with PID 7231 (/home/sagarp/git/repository2/Google_Oauth_API/target/classes started by sagarp in /home/sagarp/git/repository2/Google_Oauth_API)
+2020-03-16 14:46:44.098  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : No active profile set, falling back to default profiles: default
+2020-03-16 14:46:44.352  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-16 14:46:44.358  INFO 7231 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 JPA repository interfaces.
+2020-03-16 14:46:44.428  INFO 7231 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-16 14:46:44.472  WARN 7231 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-03-16 14:46:44.511  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 2022 (http)
+2020-03-16 14:46:44.512  INFO 7231 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-03-16 14:46:44.512  INFO 7231 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-16 14:46:44.551  INFO 7231 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-16 14:46:44.552  INFO 7231 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-03-16 14:46:44.552  INFO 7231 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 451 ms
+2020-03-16 14:46:44.581  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-11 - Starting...
+2020-03-16 14:46:44.581  WARN 7231 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-16 14:46:44.615  INFO 7231 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-11 - Start completed.
+2020-03-16 14:46:44.615  INFO 7231 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/RentDB'
+2020-03-16 14:46:44.641  INFO 7231 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-16 14:46:44.644  INFO 7231 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-03-16 14:46:44.673  INFO 7231 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-16 14:46:44.673  INFO 7231 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-16 14:46:44.703  WARN 7231 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-16 14:46:44.735  INFO 7231 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 31c7a332-702f-43c2-a4da-fe9d8ca3d46b
+
+2020-03-16 14:46:44.786  INFO 7231 --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41192413, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bc933b, org.springframework.security.web.header.HeaderWriterFilter@119a0855, org.springframework.security.web.authentication.logout.LogoutFilter@556abd1e, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@3688b2b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@331a5530, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72832ba6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6900ace4, org.springframework.security.web.session.SessionManagementFilter@7fb73b96, org.springframework.security.web.access.ExceptionTranslationFilter@2ea3167a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e561cb7]
+2020-03-16 14:46:44.840  INFO 7231 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 14:46:44.877  INFO 7231 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-16 14:46:44.886  INFO 7231 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 2022 (http) with context path ''
+2020-03-16 14:46:44.886  INFO 7231 --- [restartedMain] c.o.c.GoogleOauthAPIApplication          : Started GoogleOauthAPIApplication in 0.817 seconds (JVM running for 8045.989)
+2020-03-16 14:46:44.887  INFO 7231 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
